@@ -1,8 +1,17 @@
 {
   "rewrites": [
-    { "source": "/blog/", "destination": "https://34.48.133.159/" },
+    { "source": "/wordpress/", "destination": "https://34.48.133.159/" },
     {
-      "source": "/admin/:match*",
+      "source": "/wordpress/:match*",
+      "destination": "https://34.48.133.159/:match*"
+    },
+    { "source": "/webflow/", "destination": "https://beautiful-grid.webflow.io/" },
+    {
+      "source": "/webflow/:match*",
+      "destination": "https://beautiful-grid.webflow.io/:match*"
+    },
+    {
+      "source": "/blog/:match*",
       "destination": "https://34.48.133.159/:match*"
     },
     { "source": "/", "destination": "https://airpals-testing.vercel.app/" },
