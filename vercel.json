@@ -5,7 +5,10 @@
       "source": "/wordpress/:match*",
       "destination": "https://34.48.133.159/:match*"
     },
-    { "source": "/webflow/", "destination": "https://beautiful-grid.webflow.io/" },
+    {
+      "source": "/webflow/",
+      "destination": "https://beautiful-grid.webflow.io/"
+    },
     {
       "source": "/webflow/:match*",
       "destination": "https://beautiful-grid.webflow.io/:match*"
